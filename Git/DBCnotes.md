@@ -50,9 +50,10 @@ Keep master clean so that it always works |
 | --- | --- | -- |
 | `git push` | sends local (on your cpu) changes to GitHub | |
 | `git pull` | will download the changes made to the version others are working on | |
-| 1. Start with a folder on computer with files in it(from the command line on the computer)
+| Create of local repo on your computer first before sending it to github
+>1. Start with a folder on computer with files in it(from the command line on the computer)
 >2. run: git init inside that folder.
 >3. git will create a repo and you can run an initial commit on that repo to store the files you already have in the folder.
 >4. Then, use github web interface to create an empty repo that you can copy your local repo into.
 >5. On the command line on the computer use: git remote add origin \<url of the repo on git hub\> to connect the two
->6. Then run `git push` to upload the code on github then the two repo files will be the same code and code base. easier (best) is to clone the repo and bringing it to the command line. | Create of local repo on your computer first before sending it to github | |
+>6. Then run `git push` to upload the code on github then the two repo files will be the same code and code base. easier (best) is to clone the repo and bringing it to the command line. | | |
