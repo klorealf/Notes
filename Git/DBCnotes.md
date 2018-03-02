@@ -14,7 +14,7 @@
 | `cp` \<original file\>  \<target file\>  | Copy a file | cp new-solution.md algorithm.md|
 | `open` \<name of file\> | Open a file with default application | open algorithm.md |
 | `rm` \<name of file\> | Remove a file | |
-| `rmdir` \<name of file\> | Remove a directory. | rmdir coding |
+| `rmdir` \<name of file\> | Remove a directory if it's empty. | rmdir coding |
   | `rm -rf` \<name of folder\> | Remove a directory and everything inside it. BE CAREFUL! You can accidentally delete a lot of files this way. | |
 | `clear` | clear commands from terminal | |
 | `find` \<name of folder\> -name \<name of file\> | Search a directory (and all its subdirectories) for a file | find . -name practice.html |
